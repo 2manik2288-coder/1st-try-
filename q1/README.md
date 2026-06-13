@@ -41,4 +41,25 @@ scp build/* user@server:/var/www/q1
 # Start the application
 ssh user@server "npm start"
 ```
+### Detailed Deployment Guide
+#### Cloud Deployment
+For cloud deployment, follow these additional steps:
+* Create a new instance on your preferred cloud platform
+* Configure the security group to allow incoming traffic
+* Upload the deployable package to the instance
+* Configure the environment variables and start the application
+
+#### Server Deployment
+For server deployment, follow these additional steps:
+* Configure the server to allow incoming traffic
+* Upload the deployable package to the server
+* Configure the environment variables and start the application
+
+#### Containerization
+The Q1 project can also be deployed using containerization. To do this, follow these steps:
+* Create a Dockerfile for the application
+* Build the Docker image using the Dockerfile
+* Push the image to a container registry
+* Deploy the image to a container orchestration platform
+
 Note: Replace the placeholders with your actual server credentials and application details.
