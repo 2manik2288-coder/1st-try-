@@ -44,3 +44,16 @@ or
 ```bash
 gcloud app deploy
 ```
+### Additional Deployment Considerations
+When deploying the Q1 project, consider the following:
+* Ensure proper security configurations, such as SSL/TLS certificates and firewall rules
+* Monitor application performance and adjust resources as needed
+* Implement backup and disaster recovery strategies to minimize downtime
+* Regularly update dependencies and patch vulnerabilities to maintain security and stability
+
+### Troubleshooting Deployment Issues
+If you encounter issues during deployment, refer to the following troubleshooting steps:
+* Verify that all prerequisites are met and dependencies are installed
+* Check the application logs for error messages and debug information
+* Consult the documentation for your server or cloud platform for specific troubleshooting guides
+* Reach out to the Q1 project community or support channels for further assistance
