@@ -56,4 +56,15 @@ If you encounter issues during deployment, refer to the following troubleshootin
 * Verify that all prerequisites are met and dependencies are installed
 * Check the application logs for error messages and debug information
 * Consult the documentation for your server or cloud platform for specific troubleshooting guides
-* Reach out to the Q1 project community or support channels for further assistance
+* Reach out to the Q1 project community or support channels for further assistance 
+
+### Deployment Documentation
+The Q1 project supports various deployment methods, including:
+* **Containerization**: Using Docker to containerize the application
+* **Serverless**: Using serverless platforms like AWS Lambda or Google Cloud Functions
+* **Virtual Machines**: Using virtual machines like AWS EC2 or Google Compute Engine
+
+For more information on each deployment method, please refer to the respective documentation:
+* [Containerization Documentation](https://github.com/user/q1/tree/main/docs/containerization.md)
+* [Serverless Documentation](https://github.com/user/q1/tree/main/docs/serverless.md)
+* [Virtual Machines Documentation](https://github.com/user/q1/tree/main/docs/virtual-machines.md)
